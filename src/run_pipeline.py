@@ -6,6 +6,7 @@ steps = [
     "src/build_silver.py",
     "src/checks.py",
     "src/build_gold.py",
+    "src/publish_gold.py"
 ]
 
 for step in steps:
