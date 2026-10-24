@@ -30,5 +30,6 @@ jobs:
         env:
           SHEET_ID: ${{ secrets.SHEET_ID }}
           SHEET_TAB: ${{ secrets.SHEET_TAB }}
+          OUTPUT_SHEET_ID: ${{ secrets.OUTPUT_SHEET_ID }}
           GOOGLE_APPLICATION_CREDENTIALS: secrets/service_account.json
         run: python src/run_pipeline.py
